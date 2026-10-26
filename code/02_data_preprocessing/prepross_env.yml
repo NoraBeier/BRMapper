@@ -1,0 +1,7 @@
+name: synkit-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - mod[version='>=0.17']
+prefix: /homes/biertank/nora/miniconda3/envs/synkit-env
