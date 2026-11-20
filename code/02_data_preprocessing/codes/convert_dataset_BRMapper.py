@@ -104,7 +104,7 @@ for no in rxn_id.keys():
         filter_rxn = []
     print('Process Reaction',no,'with Ground Truth Position:',corr, 'and Filter reactions:',rxn_id[no]['filter'])    
     path = sys.argv[3]    
-    with open(path+'/rnx_'+no+'.pickle', 'rb') as f:
+    with open(path+'/rxn_'+no+'.pickle', 'rb') as f:
         its_list = pickle.load(f)
     print('No. of Suboptimals',len(its_list))
     if len(its_list) > 400:

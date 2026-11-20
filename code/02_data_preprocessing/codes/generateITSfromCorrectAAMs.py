@@ -53,7 +53,7 @@ with open(path_rxns,'r') as f:
 
         # load Suboptimals
         path_p = sys.argv[2]
-        pickles_path = path_p+'/rnx_'+maps+'.pickle'
+        pickles_path = path_p+'/rxn_'+maps+'.pickle'
         if os.path.exists(pickles_path):
             with open(pickles_path , 'rb') as f:
                 its_list = pickle.load(f)
