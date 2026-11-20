@@ -1,0 +1,6 @@
+kernel:
+  type: "NSPD"
+  r: 3
+  d: 4
+svm:
+  C: 10

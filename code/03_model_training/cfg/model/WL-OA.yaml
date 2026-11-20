@@ -1,0 +1,5 @@
+kernel:
+  type: "WL-OA"
+  n_iter: 3
+svm:
+  C: 10

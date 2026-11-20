@@ -1,0 +1,9 @@
+type: GAT
+num_layers: 2
+layer_size: 64
+heads: 8
+pool_type: max
+dropout: 0.28
+lr: 0.001
+epochs: 100
+batch_size: 1024

@@ -1,0 +1,8 @@
+type: GraphSAGE
+num_layers: 7
+layer_size: 64
+dropout: 0.02
+pool_type: max
+lr: 0.001
+epochs: 100
+batch_size: 1024

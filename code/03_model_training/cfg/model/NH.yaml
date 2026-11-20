@@ -1,0 +1,6 @@
+kernel:
+  type: "NH"
+  R: 3
+  nh_type: "count_sensitive"
+svm:
+  C: 10
